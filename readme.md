@@ -19,25 +19,41 @@
 | Lab 6    | N/A                                 | [Repo](#)                              | N/A                                |
 
 ## An interesting new feature of ES2018
-Spread syntax, introduced in ES2018, is a useful feature in JavaScript that allows you to spread out the elements of an array, string, or key-value pairs of an object in various situations. It's like taking the contents of a container and placing them individually wherever they're needed.
+Object Spread is a feature that simplifies working with objects. It allows you to create new objects by spreading the properties and values of an existing object. This enables you to clone objects, create variations with modified properties, or merge multiple objects together effortlessly.
 
-For example:
-- In function calls, you can use spread syntax to pass multiple arguments easily.
-- In array literals, you can combine arrays or add elements to an existing array.
-- In object literals, you can merge objects or add new key-value pairs to an object.
+With Object Spread:
+- You can duplicate an object's properties and values into a new object, effectively creating a shallow copy.
+- You can easily add new properties or override existing ones within the new object.
+- It provides a concise and clear syntax for object manipulation, enhancing code readability.
 
-Spread syntax simplifies working with data by making it more flexible and readable in your code.
+Object Spread is useful for scenarios where you need to manage and transform objects while preserving the integrity of the original data. It's also useful for maintaining clean and maintainable code.
 
-### [An example of this is from MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+### [An example of this is from JavaScript Tutorial](https://www.javascripttutorial.net/es-next/javascript-object-spread/)
 
-    const parts = ["shoulders", "knees"];
-    const lyrics = ["head", ...parts, "and", "toes"];
-    //Output: ["head", "shoulders", "knees", "and", "toes"]
+    let rgb = [ 'red', 'green', 'blue' ];
+    let cmyk = ['cyan', 'magenta', 'yellow', 'black'];
+    let merge = [...rgb, ...cmyk];
+    console.log(merge);
+#### Output
+    [ 'red', 'green', 'blue', 'cyan', 'magenta', 'yellow', 'black' ]
 
-### [Conditionally adding values to an array](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
-    const isSummer = false;
-    const fruits = ["apple", "banana", ...(isSummer ? ["watermelon"] : [])];
-    //Output: ['apple', 'banana']
+### [An example of this is from W3 Schools](https://www.w3schools.com/react/react_es6_spread.asp)
+
+    const myVehicle = {
+    brand: 'Ford',
+    model: 'Mustang',
+    color: 'red'
+    }
+
+    const updateMyVehicle = {
+    type: 'car',
+    year: 2021, 
+    color: 'yellow'
+    }
+
+    const myUpdatedVehicle = {...myVehicle, ...updateMyVehicle}
+#### Output
+    { brand: "Ford", model: "Mustang", color: "yellow", type: "car", year: 2021 }
 
 
 ![peepoChat Image](https://cdn.7tv.app/emote/62ec1cfdd2e11183867d8c3b/4x.webp)
