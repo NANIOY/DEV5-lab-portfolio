@@ -9,14 +9,14 @@
 
 ## Projects
 
-| **Name** | **Description**                     | **GitHub Repo**                             | **Codesandbox**                               |
-| -------- | ----------------------------------- | ------------------------------------------- | --------------------------------------------- |
-| Lab 1    | Voice controlled music player       | [Repo](https://github.com/Nvnchi/lab1)      | [Sandbox](https://l4x4v6.csb.app/)            |
-| Lab 2    | Interactive random island generator | [Repo](https://github.com/NANIOY/lab2)      | [Sandbox](https://jc48r3.csb.app/)            |
-| Lab 3    | Weather ad with quote               | [Repo](https://github.com/NANIOY/lab3) | [Vercel](https://lab3-eosin-iota.vercel.app/) |
-| Lab 4    | N/A                                 | [Repo](#)                                   | N/A                                           |
-| Lab 5    | N/A                                 | [Repo](#)                                   | N/A                                           |
-| Lab 6    | N/A                                 | [Repo](#)                                   | N/A                                           |
+| **Name** | **Description**                     | **GitHub Repo**                        | **Codesandbox**                                  |
+| -------- | ----------------------------------- | -------------------------------------- | ------------------------------------------------ |
+| Lab 1    | Voice controlled music player       | [Repo](https://github.com/Nvnchi/lab1) | [Sandbox](https://l4x4v6.csb.app/)               |
+| Lab 2    | Interactive random island generator | [Repo](https://github.com/NANIOY/lab2) | [Sandbox](https://jc48r3.csb.app/)               |
+| Lab 3    | Weather ad with quote               | [Repo](https://github.com/NANIOY/lab3) | [Vercel](https://lab3-eosin-iota.vercel.app/)    |
+| Lab 4    | Messages API                        | [Repo](https://github.com/NANIOY/lab4) | [CodePen](https://codepen.io/NanioY/pen/mdvEzEN) |
+| Lab 5    | N/A                                 | [Repo](#)                              | N/A                                              |
+| Lab 6    | N/A                                 | [Repo](#)                              | N/A                                              |
 
 ## An interesting new feature of ES2018
 Object Spread is a feature that simplifies working with objects. It allows you to create new objects by spreading the properties and values of an existing object. This enables you to clone objects, create variations with modified properties, or merge multiple objects together effortlessly.
