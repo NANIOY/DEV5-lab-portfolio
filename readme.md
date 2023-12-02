@@ -18,6 +18,8 @@
 | Lab 5    | TikTok chat app                     | [Repo](https://github.com/NANIOY/lab5)                                                              | [Vercel](https://lab5-ten.vercel.app/)           |
 | Lab 6    | Scoreboard WebSocket                | [Front-end](https://github.com/NANIOY/lab6-FRONT) / [Back-end](https://github.com/NANIOY/lab6-BACK) | [Vercel](https://lab6-front.vercel.app/)         |
 
+![lab6](https://imgur.com/a/AAYSW9X)
+
 ## An interesting new feature of ES2018
 Object Spread is a feature that simplifies working with objects. It allows you to create new objects by spreading the properties and values of an existing object. This enables you to clone objects, create variations with modified properties, or merge multiple objects together effortlessly.
 
